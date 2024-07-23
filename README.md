@@ -1,5 +1,5 @@
 # Lending Club Case Study
-> The aim is to identify patterns that indicate if a person is likely to default, which may be used for actions such as denying the loan, reducing the loan amount, or lending at a higher interest rate. The goal is to identify these risky loan applicants to reduce credit loss using exploratory data analysis (EDA).
+> This project aims to identify patterns that indicate if a person is likely to default on a loan. These insights can help take actions such as denying the loan, reducing the loan amount, or lending at a higher interest rate. The goal is to reduce credit loss using exploratory data analysis (EDA).
 
 
 ## Table of Contents
@@ -11,20 +11,15 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-  A consumer finance company [Lending Club] which specialises in lending various types of loans to urban customers. 
+- Project Overview: A consumer finance company, Lending Club, specializes in offering various types of loans to urban customers.
 
-- What is the background of your project?
-  When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
-  Two types of risks are associated with the bank’s decision:
-  If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-  If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+- Background: When a loan application is received, the Lending Club must decide whether to approve the loan based on the applicant’s profile. The company faces two types of risks:
+If the applicant is likely to repay the loan, not approving it results in a loss of business.
+If the applicant is likely to default, approving the loan may lead to a financial loss.
 
-- What is the business probem that your project is trying to solve?
-  Lending Club Platform needs insights to assess the risk in loan accept/reject to its customers based on the loans history data from 2007 to 2011 by identifying the driving factors for loan defaulters.
+- Business Problem: The Lending Club platform needs insights to assess the loan approval/rejection risk. This study uses loan history data from 2007 to 2011 to identify the driving factors for loan defaults.
 
-- What is the dataset that is being used?
-  loans history data from 2007 to 2011.
+- Dataset: Loan history data from 2007 to 2011.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -39,9 +34,9 @@ To run this project, you need to have Anaconda Jupyter Notebook and Python insta
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Conclusions
-### Observations from Univariate Analysis:
-- Loan Amounts: More defaulters are observed with loan amounts between 3k and 12k.
-- Annual Income: Many defaulters have annual incomes between 2k and 8k.
+### Univariate Analysis Observations:
+- Loan Amounts: More defaulters are observed with loan amounts between $3,000 and $12,000.
+- Annual Income: Many defaulters have annual incomes between $2,000 and $8,000.
 - DTI Value: The number of defaulters increases with higher DTI values.
 - Interest Rates: Defaulters are more common with interest rates between 10% and 18%.
 - Loan Status: The distribution of loan status is consistent across loan amounts.
@@ -52,7 +47,7 @@ To run this project, you need to have Anaconda Jupyter Notebook and Python insta
 - Employment Length: Defaulters with 10+ years of employment are notably high.
 - Grade: Defaulters are ranked as B > C > D > A > E > F > G.
 - Term: Defaulters with a 36-month term are more common than those with a 60-month term.
-- Address State: CA has the highest number of defaulters, followed by FL, NY, TX, and NJ.
+- Address State: California (CA) has the highest number of defaulters, followed by Florida (FL), New York (NY), Texas (TX), and New Jersey (NJ).
 - Monthly Trends: The number of defaulters is increasing monthly.
 - Yearly Trends: The number of defaulters is increasing yearly.
 
@@ -81,10 +76,3 @@ To run this project, you need to have Anaconda Jupyter Notebook and Python insta
 
 ## Contact
 Created by [https://github.com/udaykiranpujaari72] [Vaibhav Agarwal] - feel free to contact us!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
