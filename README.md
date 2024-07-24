@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Tools and Technologies Used](#technologies-used)
+* [Tools and Technologies Used](#tools-and-technologies-used)
 * [Conclusions](#conclusions)
 * [Contact](#contact)
 
